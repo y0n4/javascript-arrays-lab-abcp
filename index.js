@@ -29,6 +29,6 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  newArray.unshift(name);
+  newArray.push(name);
   return newArray;
 }
