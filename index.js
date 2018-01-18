@@ -1,6 +1,7 @@
 const app = "I don't do much."
 
 var kittens = ['Milo', 'Otis', 'Garfield'];
+var newArray = kittens;
 
 function destructivelyAppendKitten(name){
   kittens.push(name);
@@ -20,4 +21,9 @@ function destructivelyRemoveLastKitten(){
 function destructivelyRemoveFirstKitten(){
   kittens.shift();
   return kittens;
+}
+
+function appendKitten(name){
+  newArray.push(name);
+  return newArray;
 }
